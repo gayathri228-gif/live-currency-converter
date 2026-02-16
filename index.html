@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Live Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>💱 Live Currency Converter</h1>
+
+      <div class="converter">
+        <input type="number" id="amount" placeholder="Enter Amount" value="1" />
+
+        <div class="dropdowns">
+          <select id="fromCurrency"></select>
+          <button id="swap">⇄</button>
+          <select id="toCurrency"></select>
+        </div>
+
+        <button id="convertBtn">Convert</button>
+
+        <h2 id="result">Converted Amount</h2>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
